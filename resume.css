@@ -11,14 +11,19 @@
     margin-left: auto;
 }
 
+body {
+    background-color: antiquewhite;
+}
+
   /* Navigation bar*/
 .nav {
     width: 100%;
-    background-color: cornsilk;
+    background-color: #eae3ea;
     overflow: auto;
 }
+
 .nav a {
-    float:right;
+    float: left;
     padding: 12px;
     color: black;
     text-decoration: none;
@@ -28,9 +33,10 @@
     border-right: 2px solid #bbb;
 }
 nav a:hover {
-    background-color: green; /*Show the color of the tab that your mouse is pointing*/
+    background-color: #b4dbc0; /*Show the color of the tab that your mouse is pointing*/
 }
-.nav .active {
-    background-color:tomato; /*Show the color of the current page */
+.active {
+    background-color: #b56357; /*Show the color of the current page */
 }
+
 
