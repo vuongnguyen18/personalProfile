@@ -38,6 +38,7 @@
     display: inline-block;
     bottom: -20px;
     opacity: 0;
+    font-family: pac;
 }
 
 .half.active {
@@ -52,11 +53,25 @@
     transition: ease-in-out 0.5s;
 }
 
+body {
+    background-color: #dcccbb;
+    
+}
+
+@font-face {
+    src: url(Pacifico-Regular.ttf);
+    font-family: pac;
+}
+
 h1 {
     text-align: center;
-    font-size: 40px;
+    font-size: 70px;
     animation-duration: 10s;
     animation-name: slidein;
+    font-family: pac;
+    margin: 20 20 ; /* bottom-top */
+    color: #2C3D55;
+    text-decoration: underline;
   }
   
   @keyframes slidein {
@@ -101,3 +116,11 @@ nav a:hover {
 .nav .active {
     background-color: #b56357; /*Show the color of the current page */
 }
+
+.resumepage img{
+    max-width: 70%;
+    height: auto;
+    margin-top: 25px;
+    margin-left: 200px;
+}
+

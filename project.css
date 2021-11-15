@@ -31,7 +31,7 @@ body {
 
 
 @font-face {
-    src: url(fonts/PermanentMarker-Regular.ttf);
+    src: url(PermanentMarker-Regular.ttf);
     font-family: per;
 }
 
@@ -39,7 +39,8 @@ h1 {
     text-align: center;
     font-size: 60px;
     font-family: per;
-    color: aqua;
+    color: #A7754D;
+    text-decoration: underline;
 }
 
 
