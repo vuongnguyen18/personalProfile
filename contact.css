@@ -10,6 +10,16 @@
     font-family: coo;
 }
 
+.justify {
+  max-width: 1600px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+body {
+  overflow-x: hidden;
+}
+
   .overlay {
     position: absolute;
     top: 0;
@@ -45,7 +55,7 @@
   
   .container_outer_img {
     margin: 50px;
-    width: 31%;  /*The size of the image */
+    width: 30%;  /*The size of the image */
     overflow: hidden;
   }   
       
@@ -75,6 +85,7 @@
   h1 {
       font-size: 70px;
       color: #BF307F;
+      margin-top: 100px;
       margin-bottom: 20px;
       font-family: coo;
       transform: translateY(100px);
@@ -114,7 +125,8 @@
   }
 
   .icon {
-    margin-top: 20px;
+    margin-top: 30px;
+    margin-right: 10px;
   }
 
   /* Navigation bar*/
@@ -140,5 +152,14 @@ nav a:hover {
 }
 .active {
     background-color: #b56357; /*Show the color of the current page */
+}
+
+.website-footer {
+  text-align: left;
+}
+
+.footer-left {
+  font-size: 15px;
+  margin-left: 15%;
 }
   

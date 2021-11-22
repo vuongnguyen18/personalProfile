@@ -55,7 +55,7 @@
 
 body {
     background-color: #dcccbb;
-    
+    overflow-x: hidden;
 }
 
 @font-face {
@@ -122,5 +122,11 @@ nav a:hover {
     height: auto;
     margin-top: 25px;
     margin-left: 200px;
+}
+
+.website-footer {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 

@@ -88,6 +88,7 @@ svg .draw {
 
 body {
     background-color:antiquewhite;
+    overflow: hidden;
 }
 
 h2 {
@@ -193,6 +194,10 @@ nav a:hover {
 .footer-left {
     margin-top: 150px;
     text-align: center;
+}
+
+.under p {
+    margin-top: 150px;
 }
 
 

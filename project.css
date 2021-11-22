@@ -15,6 +15,7 @@ body {
     background-color: antiquewhite;
     animation-duration: 10s;
     animation-name: slidein;
+    overflow-x: hidden;
 } 
  @keyframes slidein {
   from {
@@ -168,7 +169,7 @@ nav a:hover {
 }
 
 .bottomLeft img {
-    max-width: 100%;
+    max-width: 60%;
     height: 500px;
     float: left;
     border: solid 10px #bbb;
@@ -185,4 +186,8 @@ nav a:hover {
     font-size: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif, "Bubble Sans", Arial, Helvetica, sans-serif;
     line-height: 31px;
+}
+
+.website-footer {
+    text-align: center;
 }
