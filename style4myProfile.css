@@ -159,7 +159,7 @@ nav a:hover {
     background-color: #b4dbc0; /*Show the color of the tab that your mouse is pointing*/
 }
 .active {
-    background-color: #b56357; /*Show the color of the current page */
+    background-color: #b56357; /*Show the color of the current page in the navigation bar*/
 }
 
 .left {
@@ -191,13 +191,34 @@ nav a:hover {
     line-height: 31px;
 } 
 
+.under {
+    display: flex;
+    align-items: center;
+}
+
+.under img {
+    max-width: 100%;
+    height: 500px;
+    float: left;
+    border: solid 10px #bbb;
+    margin-top: 110px;
+    margin-left: 20px;
+    vertical-align: middle;
+}
+
+.under span {
+    margin-left: 3%;
+    overflow: hidden;
+    float: right;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif, "Bubble Sans", Arial, Helvetica, sans-serif;
+    line-height: 31px;
+} 
+
+
 .footer-left {
     margin-top: 150px;
     text-align: center;
-}
-
-.under p {
-    margin-top: 150px;
 }
 
 
